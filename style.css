@@ -6,9 +6,17 @@ body {
 .orange {
     color: orange;
 }
+h1 {
+    font-size: 50px;
+}
+
+p {
+    color: dimgray;
+}
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -25,6 +33,11 @@ section {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .top-banner {
